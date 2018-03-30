@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1>
+  {{ page.title | escape }}
+</h1>
+
+<p>
+  Published on {{ page.date | date: '%A, %B %e, %Y' | escape }}.
+</p>
+
+{{ content }}

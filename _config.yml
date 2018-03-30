@@ -1,0 +1,17 @@
+description: The EdutainmentLIVE developer blog.
+permalink: pretty
+plugins:
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jemoji
+repository: EdutainmentLIVE/edutainmentlive.github.io
+theme: jekyll-theme-cayman
+title: EdutainmentLIVE
+titles_from_headings:
+  collections: true
+  strip_title: true

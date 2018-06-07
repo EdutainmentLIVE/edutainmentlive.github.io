@@ -1,4 +1,4 @@
-description: The EdutainmentLIVE developer blog.
+description: The ITProTV developer blog.
 permalink: pretty
 plugins:
   - jekyll-default-layout
@@ -11,7 +11,7 @@ plugins:
   - jemoji
 repository: EdutainmentLIVE/edutainmentlive.github.io
 theme: jekyll-theme-cayman
-title: EdutainmentLIVE
+title: ITProTV
 titles_from_headings:
   collections: true
   strip_title: true

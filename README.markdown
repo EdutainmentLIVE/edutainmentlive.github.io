@@ -1,10 +1,10 @@
-# EdutainmentLIVE developer blog
+# ITProTV developer blog
 
-This is the repository for the EdutainmentLIVE developer blog.
+This is the repository for the ITProTV developer blog.
 
 ## For readers
 
-The blog is available at <https://EdutainmentLIVE.github.io>.
+The blog is available at <http://engineering.itpro.tv>.
 
 ## For writers
 

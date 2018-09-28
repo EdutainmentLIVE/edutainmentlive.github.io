@@ -1,6 +1,6 @@
 # Haskell In Production: A GHC Upgrade Success Story
 
-Version upgrade nightmares are so common that they become almost expected. Update the compiler one patch level, or a library version, and the work spirals into a much larger project.
+Version upgrade nightmares are so common that they have become almost expected. Update the compiler one patch level, or a library version, and the work spirals into a much larger project.
 This is a story of going forward two versions in GHC, and updating our libraries at the same time. Oh and doing it with minimal fuss.
 
 To begin, I will give a quick description of the codebase and a rundown of what changed during

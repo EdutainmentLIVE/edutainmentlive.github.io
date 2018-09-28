@@ -4,7 +4,7 @@ This is the repository for the ITProTV developer blog.
 
 ## For readers
 
-The blog is available at <http://engineering.itpro.tv>.
+The blog is available at <https://engineering.itpro.tv>.
 
 ## For writers
 

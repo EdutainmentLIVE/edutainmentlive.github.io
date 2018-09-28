@@ -4,7 +4,7 @@ by Trevis Elser (@telser)
 Version upgrade nightmares are so common that they have become almost expected.
 Update the compiler one patch level, or a library version, and the work spirals
 into a much larger project. This is a story of going forward two versions in
-GHC, 8.02 to 8.4.3, and updating our libraries at the same time. Oh and doing
+GHC, 8.0.2 to 8.4.3, and updating our libraries at the same time. Oh and doing
 it with minimal fuss.
 
 To begin, I will give a quick description of the codebase and a rundown of what

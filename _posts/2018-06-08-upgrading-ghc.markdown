@@ -1,33 +1,33 @@
 # Haskell In Production: A GHC Upgrade Success Story
 
 Version upgrade nightmares are so common that they have become almost expected. Update the compiler one patch level, or a library version, and the work spirals into a much larger project.
-This is a story of going forward two versions in GHC, and updating our libraries at the same time. Oh and doing it with minimal fuss.
+This is a story of going forward two versions in GHC, 8.02 to 8.4.3, and updating our libraries at the same time. Oh and doing it with minimal fuss.
 
 To begin, I will give a quick description of the codebase and a rundown of what changed during
  the process of upgrading.
 
 The codebase is a relatively young project at around 6 months old. However it is already well
- established within the company and in production. The code is written in Haskell, using the stack build tool.
- Other tools used include the linter Hlint, and recently added brittany as the format tool in place
- of hindent, as well as some custom helper scripts for pulling all of this together.
+ established within the company and in production. The code is written in Haskell, using the [Stack](https://docs.haskellstack.org/en/stable/README/) build tool.
+ Other tools used include the linter [HLint](https://github.com/ndmitchell/hlint), and recently added [Brittany](https://github.com/lspitzner/brittany) as the format tool in place
+ of [hindent](https://github.com/commercialhaskell/hindent), as well as some custom helper scripts for pulling all of this together.
 The tools have configuration version controlled with the code. Futher we distribute specific
  versions of the tools via containers to keep everyone in sync.
 
 # Size of Codebase and Changes
 Let's start with how big the codebase is to give something to compare the changes against. The
  Haskell codebase is less than a year old and still growing. As of this writing the number of real
- lines of Haskell, opposed to blank or comment lines, as reported by the cloc utility is just a hair under 21
- thousand. That is excluding any helper scripts, configuration files, and so on.
+ lines of Haskell, opposed to blank or comment lines, as reported by the cloc utility is just a hair under twenty-one
+ thousand. That is excluding any helper scripts, configuration files, and so on. For our change we are upgrading from `LTS-9.21` to `LTS-12.0` both being Stackage resolvers.
 
 Now, what did we have to change for this? Well the lines changed directly due to the upgrade of
  GHC was a grand total of 1. That's right, only a single line. There is a bit of a trick in that
 phrasing though. Also updated were our libraries. So going back and tracing through the lines
  changed for libraries comes to a total of 2 lines.
 
-Previously I mentioned that we use Hlint, and that we version control the configuration and tool
- itself. Upgrading our tools included upgrading Hlint, which gave us a couple of new hints. Also,
- was the removal of two hints we had previously ignored. So our configuration file shrunk! We
- removed two hints and added another, another pretty small change to make. But how did this change
+Previously I mentioned that we use HLint, and that we version control the configuration and tool
+ itself. Upgrading our tools included upgrading HLint, which gave us a couple of new hints. Also,
+ two hints were removed that we had previously ignored. So our configuration file shrunk! We
+ removed two hints and added another, which was pretty small change to make. But how did this change
  the codebase? Great question, it was 12 lines changed and 2 deleted.
 
 You might wonder, why all the specific numbers? For two reasons, to highlight how much code
@@ -40,13 +40,13 @@ than the code itself.
 
 ## Development Speed
 
-Speed of tooling can be either a real drag on getting work done, or if acceptable is often overlooked.
+If speed of tooling is slow it can be a real drag on getting work done, or if acceptable, the speed is often overlooked.
  Our Haskell codebase compiles quite quickly on GHC-8.0. But what about the new version you might ask,
  expecting to hear a gotcha finally come in. It is even faster! Significantly so. Across 100 iterations
  of building GHC-8.4 came out 24 percent faster on average.
 
-Now To give some hard numbers. These are taken from a development machine by a small script to
- measure the time to build the project after cleaning. The GHC-8.0 had a mean build time of approximately 191 seconds
+Now to give some hard numbers. These are taken from a development machine by a small script to
+ measure the time to build the project after cleaning. The GHC-8.0 build had a mean build time of approximately 191 seconds
  and a standard deviation of 7.5 seconds. After the upgrade to 8.4 the mean build time was 144 seconds,
  with a standard deviation of 2.8 seconds. Notice the standard deviation difference, it is less than
  half of what it was previously! So we got a faster *and* more consistent development experience from
@@ -55,23 +55,23 @@ Now To give some hard numbers. These are taken from a development machine by a s
 # Staying Prepared
 
 How did we manage to jump two compiler versions, and update our libraries with so few changes to
- the codebase?  There are three major contributors to this, compiling with -Wcompat, using stackage
+ the codebase?  There are three major contributors to this, compiling with `-Wcompat` flag, using Stackage
  and keeping our tooling version controlled in the first place.
 
-## Wcompat
+## `-Wcompat`
 
-GHC offers Wcompat as a flag to turn on warnings due to be turned on by default in the future, but
+GHC offers `-Wcompat` as a flag to turn on warnings due to be turned on by default in the future, but
  that have not yet been enabled. Enabling this, along with turning those warnings into errors,
  means that we keep at least some future issues out of the codebase.
 
 ## Stackage
 
 Libraries can be a headache trying to get all the dependencies resolved and working with a given
- language upgrade, as anyone with "cabal hell" experience can attest to. Thankfully Stackage
+ language upgrade, as anyone with "Cabal hell" experience can attest to. Thankfully Stackage
  has taken almost all of the pain out of this. We attempt to limit ourselves to libraries and
  versions of those libraries that exist in a Stackage resolver, which means the work of compiling
- dependencies together has already been done for us. At this writing we have exactly 3 libraries
- that we pull in as "extra-deps", from outside the upstream resolver. Also, we continue to work
+ dependencies together has already been done for us. At time of writing we have exactly 3 libraries
+ that we pull in as `extra-deps`, from outside the upstream resolver. Also, we continue to work
  towards those being available upstream with multiple team-members now having contributed to
  Stackage.
 

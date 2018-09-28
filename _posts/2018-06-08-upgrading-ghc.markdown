@@ -16,8 +16,7 @@ The tools have configuration version controlled with the code. Futher we distrib
 # Size of Codebase and Changes
 Let's start with how big the codebase is to give something to compare the changes against. The
  Haskell codebase is less than a year old and still growing. As of this writing the number of real
- lines of Haskell, opposed to blank or comment lines, as reported by the cloc utility is just a hair under twenty-one
- thousand. That is excluding any helper scripts, configuration files, and so on. For our change we are upgrading from `LTS-9.21` to `LTS-12.0` both being Stackage resolvers.
+ lines of Haskell, opposed to blank or comment lines, as reported by the cloc utility is just a hair under 21,000. That is excluding any helper scripts, configuration files, and so on. For our change we are upgrading from `LTS-9.21` to `LTS-12.0` both being Stackage resolvers.
 
 Now, what did we have to change for this? Well the lines changed directly due to the upgrade of
  GHC was a grand total of 1. That's right, only a single line. There is a bit of a trick in that

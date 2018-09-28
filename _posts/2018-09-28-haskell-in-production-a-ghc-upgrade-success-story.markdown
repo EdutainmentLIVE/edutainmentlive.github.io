@@ -1,5 +1,5 @@
-by Trevis Elser (@telser)
 # Haskell in production: A GHC upgrade success story
+by Trevis Elser (@telser)
 
 Version upgrade nightmares are so common that they have become almost expected.
 Update the compiler one patch level, or a library version, and the work spirals

@@ -1,3 +1,4 @@
+by Trevis Elser (@telser)
 # Haskell in production: A GHC upgrade success story
 
 Version upgrade nightmares are so common that they have become almost expected.

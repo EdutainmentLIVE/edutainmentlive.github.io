@@ -93,7 +93,7 @@ We think pairing is great. We do nearly all of our work in pairs. It has improve
 codebase, and while it may slow us down in the short-term, it definitely speeds us up in the
 long-term.
 
-[A photo of two people working at a pairing station]: /assets/2018-10-09-pair-programming.jpeg
+[A photo of two people working at a pairing station]: /assets/2018-10-24-pair-programming.jpeg
 [Ping Pong]: https://gist.github.com/JasonMFry/d5a2f9316e270d38fcf88726ae6204d6#ping-pong
 [SSH]: https://www.ssh.com/ssh/
 [Strong Style]: https://gist.github.com/JasonMFry/d5a2f9316e270d38fcf88726ae6204d6#strong-style

@@ -3,7 +3,6 @@
 by Jason Fry (@JasonMFry)
 
 ![A photo of two people working at a pairing station][]
-use real photo, not this one.
 
 ## Why We Pair
 
@@ -21,7 +20,7 @@ use real photo, not this one.
 
 We had an outside expert recommend that we begin pairing, and when we moved into a new building in
 October 2016 we took that opportunity to setup our area to make pairing easy (see
-[Logistics](#Logistics) for our setup). Thankfully our leadership is very supportive of experiments;
+[Logistics](#logistics) for our setup). Thankfully our leadership is very supportive of experiments;
 in fact they encourage experimentation and celebrate well-intentioned failure.
 
 ## Preferred Pairing Style
@@ -94,7 +93,7 @@ We think pairing is great. We do nearly all of our work in pairs. It has improve
 codebase, and while it may slow us down in the short-term, it definitely speeds us up in the
 long-term.
 
-[A photo of two people working at a pairing station]: https://cdn-images-1.medium.com/max/1600/1*eLThQSUT_xeGtRVGainpfQ.png
+[A photo of two people working at a pairing station]: /assets/2018-10-09-pair-programming.jpeg
 [Ping Pong]: https://gist.github.com/JasonMFry/d5a2f9316e270d38fcf88726ae6204d6#ping-pong
 [SSH]: https://www.ssh.com/ssh/
 [Strong Style]: https://gist.github.com/JasonMFry/d5a2f9316e270d38fcf88726ae6204d6#strong-style

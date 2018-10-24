@@ -14,7 +14,7 @@ use real photo, not this one.
     1. Improves our cohesion as a team
 1. Improves our code
     1. Two people make better design decisions than one person
-    1. Part of the Navigator's job is to spot opportunites for refactoring, so we're constantly
+    1. Part of the second person's job is to spot opportunities for refactoring, so we're constantly
        refactoring out codebase
 
 ## How We Got Started Pairing
@@ -22,13 +22,13 @@ use real photo, not this one.
 We had an outside expert recommend that we begin pairing, and when we moved into a new building in
 October 2016 we took that opportunity to setup our area to make pairing easy (see
 [Logistics](#Logistics) for our setup). Thankfully our leadership is very supportive of experiments;
-in fact they encourage expirementation and celebrate well-intentioned failure.
+in fact they encourage experimentation and celebrate well-intentioned failure.
 
 ## Preferred Pairing Style
 
 There are different pairing methods, but we prefer Driver/Navigator over [Ping Pong][] because we
 don't do TDD and over [Strong Style][] because it feels foreign to us, though we may occasionally do
-it to shake things up. [Tour Guide][] Doesn't achieve our goals for knowledge transfer and code
+it to shake things up. [Tour Guide][] doesn't achieve our goals for knowledge transfer and code
 quality.
 
 We let each pair determine the specifics of each role. Below I've outlined how we _tend_ to define
@@ -42,7 +42,7 @@ their expectations so that the Navigator knows what's going on.
 The Navigator tends to do most everything else:
 
 - Note opportunities for refactoring
-- Keep scope of story small
+- Keep scope of work small
 - Ask for breaks on a regular basis
 - Encourage the Driver to commit frequently
 - Follow the storyline and stop the driver if it doesn’t make sense
@@ -53,7 +53,7 @@ The Navigator tends to do most everything else:
 
 ## Logistics
 
-The logistics of how we pair is importannt because it increases our effectiveness. We almost always
+The logistics of how we pair is important because it increases our effectiveness. We almost always
 drive on our own machine, but there are plenty of times when we drive on someone else's machine with
 their editor so we can be more editor-agnostic.
 
@@ -64,11 +64,11 @@ was doing. This allowed us to stay at our own desk but still effectively pair. B
 being shoulder-to-shoulder more than remaining in the comfort of our own desk, and so have adopted
 another setup.
 
-Our (currently) prefered setup, which you can see an example of in the photo at the top of this
+Our (currently) preferred setup, which you can see an example of in the photo at the top of this
 post, is to pair shoulder-to-shoulder with 2 mirrored monitors, 2 keyboards (only 1 active at a time
 so as not to confuse roles), and 2 mice (both active so that the Navigator can point to things on
-the screen). We have multiple desks that are designated as pairing stations, and while each of us
-have "our own desk", we're usually working at one of the pairing stations.
+the screen). We have multiple desks that are designated as pairing stations. While each of us
+has "our own desk", we're usually working at one of the pairing stations.
 
 ### Remote Pairing
 

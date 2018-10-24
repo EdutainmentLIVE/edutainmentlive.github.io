@@ -28,15 +28,11 @@ You should work on posts in branches and open pull requests to discuss them.
 ## For developers
 
 The blog is powered by [GitHub Pages](https://pages.github.com). To preview it
-locally you'll need Ruby, which ships with macOS. You can generate the site
-with these commands:
+locally run
 
-``` sh
-# Install dependencies.
-$ gem install --file gems.rb --no-document --user-install
-
-# Build site.
-$ ~/.gem/ruby/*/bin/jekyll serve
-
-# Go to <http://localhost:4000>.
+```sh
+docker build --tag blag . && docker run --rm --tty --interactive --publish 4000:4000 blag
 ```
+
+Then go to <http://localhost:4000>. Note that it will not rebuild on change so you have
+to restart the container to see any changes.

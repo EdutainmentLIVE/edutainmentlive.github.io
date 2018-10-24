@@ -88,22 +88,14 @@ For those of us who use terminal-based editors such as emacs and vim, we use [tm
 along with an audio call using Slack or whatever the pair feels like: Hangouts, Skype, Riot,
 old-fashioned telephone call, etc.
 
-### Promiscuous Pairing
-
-In an upcoming post we're going to discuss our (successful) experiment with promiscuous pairing as
-inspired by [Promiscuous Pairing and Beginner’s Mind][] by [Arlo Belshee][]. I think you're going to
-be intrigued by the discussion.
-
 ## Pairing is Great
 
 We think pairing is great. We do nearly all of our work in pairs. It has improved our team and our
 codebase, and while it may slow us down in the short-term, it definitely speeds us up in the
 long-term.
 
-[Arlo Belshee]: http://arlobelshee.com
 [A photo of two people working at a pairing station]: https://cdn-images-1.medium.com/max/1600/1*eLThQSUT_xeGtRVGainpfQ.png
 [Ping Pong]: https://gist.github.com/JasonMFry/d5a2f9316e270d38fcf88726ae6204d6#ping-pong
-[Promiscuous Pairing and Beginner’s Mind]: http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf
 [SSH]: https://www.ssh.com/ssh/
 [Strong Style]: https://gist.github.com/JasonMFry/d5a2f9316e270d38fcf88726ae6204d6#strong-style
 [tmate]: https://tmate.io

@@ -1,10 +1,10 @@
-## How We Work: Exercise and Stand Desks
+# How We Work: Exercise and Stand Desks
 
 by Cameron Gera (@gera-cameron)
 
 [PHOTO HERE]
 
-### Team Exercise
+## Team Exercise
 
 Lucas ipsum dolor sit amet utai cognus neimoidia zannah boba hoth kitonak r2-d2
 bando tharen. Axmis tono ooryl aurra bail yané luuke bimm gwurran. Arvel gilad
@@ -22,7 +22,7 @@ zannah cb-99 joh tof. R4-p17 utai ismaren utapaun r2-d2 thrawn calamari hssis.
 Luuke raymus derek rattataki tund. Gen'dai boba fel trandoshan mustafar omwati
 klivian rishi skirata. Lobot thrackan kastolar kenobi.
 
-### Stand Desk
+## Stand Desk
 
 Altyr braxant joelle charal abrion skywalker. Utai kor-uj medon cb-99 haruun
 ansionian firrerreo. Annoo mod secura ansuroer wesell snootles. Raa shadda

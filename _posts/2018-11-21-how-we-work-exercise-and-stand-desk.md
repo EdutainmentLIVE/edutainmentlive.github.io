@@ -31,7 +31,7 @@ I know it sounds like a lot to do it every hour, but we have seen quite a few be
 **Crazy Stat!** As a team we have done over 20,000 push ups since June 28th, 2018.
 
 This experiment has positively effected our team here. With taking just a few extra minutes a day,
-we increased our work completed by 17% for a 4 month span. We have also allowed other ITProTV 
+we increased our work completed by 17% for a 4 month span. We have also allowed other ITProTV
 employees join our slack channel and together we keep each other accountable to following a health
 life style.
 
@@ -42,7 +42,10 @@ it's the norm. The reasons leadership invested were unclear to me, but I wasn't 
 loved the flexibility and usefulness these desks offered.
 
 After working here for a few months, I found out that the leadership team invested in stand desks
-to
+because that's what the engineering team wanted. It was cool to know that leadership was willing 
+to meet the requests of their employees. After the engineering team got stand desks, the rest of
+the company wanted them, so when we moved into our new office building, leadership made sure to
+get the rest of the team stand desks.
 
 As a team, our use of the stand desk varies. I don't stand, but maybe a few times a day and
 generally use a balance board, while one of my coworkers stands a majority of the day. If you've

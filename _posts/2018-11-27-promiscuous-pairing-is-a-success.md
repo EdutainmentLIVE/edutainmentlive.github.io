@@ -47,5 +47,15 @@ Though the experiment was an overwhelming success, there were complications that
 
 <!-- got better very quickly, though difficult the first week -->
 
+## Why Does Promiscuous Pairing Work?
+
+We're not entirely convinced that promiscuous pairing works inherently. Rather, we think it works
+for three reasons
+
+1. it requires good habits to successfully implement
+1. it distributes both domain-specific and tool-specific knowledge very rapidly
+1. it keeps us engaged
+
+There are other ways to achieve these 3 things, but promiscuous pairing is the quickest way for us.
 [Promiscuous Pairing paper]: http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf
 [previous post on pairing]: https://engineering.itpro.tv/2018/10/24/how-we-work-pair-programming/

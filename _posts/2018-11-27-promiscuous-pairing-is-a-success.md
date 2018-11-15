@@ -3,8 +3,17 @@
 By Jason Fry (@JasonMFry)
 
 Inspired by @arlobelshee's [Promiscuous Pairing paper][], we embarked on our own experiment on
-2018-10-16. Before then we paired roughly 80% of the time (see [previous post on pairing][]) so we
-were familiar with pairing but we had a lot of room to grow.
+2018-10-16. It was a big success :smile:. This is our experience.
+
+## Background
+
+Before this experiment, roughly 80% of code was written by a pair (see [previous post on
+pairing][]). We described ourselves as familiar with pairing, but needing improvement. Pairs owned a
+task and would pair until the task was complete. In practice pairs would stay together for several
+days--sometimes a week or more--because we waited until 2 pairs had each completed tasks, and that
+timing didn't line up very often. We had a mix of pull-based and push-based tasks, meaning that we
+usually chose our own tasks but occasionally we were assigned tasks by someone (usually the lead
+engineer).
 
 ## Benefits
 

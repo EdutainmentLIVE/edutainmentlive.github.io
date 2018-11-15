@@ -57,5 +57,16 @@ for three reasons
 1. it keeps us engaged
 
 There are other ways to achieve these 3 things, but promiscuous pairing is the quickest way for us.
+
+### Brain Dump
+
+Info I've written that may or may not find a place in the final post.
+
+At the beginning of every story we write a todo list in the code in comments so that everyone who
+picks up the story can, at a glance, know roughly where we are. The todo list doesn't eliminate the
+need for the Jedi to pass context to the Padawn, but it helps. But more importantly it forces us to
+think through the story to discuss our assumptions, address our questions, and sketch a rough
+design. Plus it helps us remember to make commits after each item is finished.
+
 [Promiscuous Pairing paper]: http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf
 [previous post on pairing]: https://engineering.itpro.tv/2018/10/24/how-we-work-pair-programming/

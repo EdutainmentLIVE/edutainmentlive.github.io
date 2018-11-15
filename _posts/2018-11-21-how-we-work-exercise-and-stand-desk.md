@@ -9,12 +9,12 @@ by Cameron Gera (@gera-cameron)
 The culture of our engineering team here at ITProTV encourages healthy habits. We all enjoy taking
 care of our bodies, so why wouldn't we want to do the same at work! The two main ways we do this is
 through, you guessed it, team exercise and stand desks. There is a lot of research out there on what
-improves work place morale, but for us these two elements help our team be the happiest and most
+improves workplace morale, but for us these two elements help our team be the happiest and most
 productive we can be.
 
 ## Team Exercise
 
-This element of our work day occurs at the 50th of every hour between eight and five. The exercises we do vary day
+This element of our workday occurs at the 50th of every hour between eight and five. The exercises we do vary day
 to day because we generally get sore. Some of the exercises include:
 
 - Push-ups
@@ -27,10 +27,10 @@ I know it sounds like a lot to do it every hour, but we have seen quite a few be
 1. Allows a break from the code we are writing
 1. Increased productivity
 
-**Crazy Stat!** As a team we have done over 20,000 push ups since June 28th, 2018.
+**Crazy Stat!** As a team, we have done over 20,000 push-ups since June 28th, 2018.
 
-This experiment has positively effected our team here. With taking just a few extra minutes a day,
-we increased our work completed by 17% for a 4 month span. We have also encouraged other ITProTV
+This experiment has positively affected our team here. With taking just a few extra minutes a day,
+we increased our work completed by 17% for a 4-month span. We have also encouraged other ITProTV
 employees to join our Slack channel and together we keep each other accountable to following a healthy
 lifestyle.
 

@@ -2,9 +2,55 @@
 ---
 
 @import "{{ site.theme }}";
+@import url("https://use.typekit.net/lju1geg.css");
+
+body {
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  color: #151746;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+h2 {
+  color: #151746;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+p {
+  font-family: 'adelle-sans', sans-serif;
+  font-size: 16px;
+  color: #525656;
+}
+
+.main-content {
+  width: 100%;
+  padding: 0;
+  h1 {
+    color: #151746;
+  }
+
+  h2 {
+    color: #151746;
+  }
+}
 
 .page-header {
   background-color: #151746;
   background-image: none;
-  color: white;
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .main-content {
+    max-width: 100%;
+  }
 }

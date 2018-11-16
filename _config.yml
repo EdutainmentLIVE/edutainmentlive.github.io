@@ -1,4 +1,4 @@
-description: The ITProTV developer blog.
+description: Gain insight into how ITProTV engineers work with the latest technologies to develop ITProTV's end user applications.
 permalink: pretty
 plugins:
   - jekyll-default-layout

@@ -48,7 +48,24 @@ wrong...in a good way :smile:
 
 ### Anecdotal Benefits
 
-<!-- list anecdotal benefits, such as "feel more knowledgeable of our codebase", etc -->
+I asked our team "What do you enjoy about promiscuous pairing?", and below are all of our answers.
+
+> I feel much more knowledgeable and therefore comfortable with our entire codebase.
+
+> Since we all touch each story, I feel like we each get a 'win' every time a story is completed,
+> which improves our morale and makes us want to get even more stories finished.
+
+> As a manager, it's much easier to check in on stories and see how progress is being made.
+
+> I like the constant change up in work, it makes me feel more productive and keeps my brain sharp
+> to new problems.
+
+> Being exposed to all of the problems the team is facing and knowing how I can help the most.
+> Working with all teammates on a regular basis. Good ideas that come from different viewpoints
+
+> Learning new keyboard shortcuts and other 'tricks' from other team members.
+
+> It was easier to stay engaged because I was constantly unsure what was going on ;)
 
 ## Complications
 

@@ -11,7 +11,7 @@ plugins:
   - jemoji
 repository: EdutainmentLIVE/edutainmentlive.github.io
 theme: jekyll-theme-cayman
-title: ITProTV
+title: ITProTV Engineering Blog
 titles_from_headings:
   collections: true
   strip_title: true

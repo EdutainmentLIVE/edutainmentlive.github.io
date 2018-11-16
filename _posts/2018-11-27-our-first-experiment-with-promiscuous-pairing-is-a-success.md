@@ -71,13 +71,22 @@ I asked our team "What do you enjoy about promiscuous pairing?", and below are a
 
 Though the experiment was an overwhelming success, there were complications that we had to address.
 
-### Scheduling
+Passing context from pair-to-pair was the most difficult complication. There were a few times when
+the Jedi couldn't answer the padawn's questions, and since we weren't used to this experience we
+didn't do a good job of asking the previous Jedi; instead we grumbled and complained (mostly me, the
+author :smile:).
 
-<!-- our company standup is 0830, making our morning 3 hours -->
+There were one or two times when someone had to leave work early for a doctor's appointment or
+something, and we weren't sure what to do if they were supposed to be the Jedi. Eventually we
+learned to schedule our day around such known scheduling complications so that the person who had to
+leave would be Han Solo at that time, but it was difficult until we figured that out.
 
-### Passing Context
-
-<!-- got better very quickly, though difficult the first week -->
+Eventually we learned to put lots of temporary notes in the code to capture design decisions and
+todo lists which made it much easier to get onboard a padawn. In fact, we were able to get our
+onboarding time down to 5 minutes and sometimes less. While this wasn't our intention, adding those
+notes forced us to think through the story to discuss our assumptions, address our questions, and
+sketch a rough design before we ever began writing code. Plus it helped us remember to make commits
+after each todo item was finished.
 
 ## Why Does Promiscuous Pairing Work?
 
@@ -89,16 +98,6 @@ for three reasons
 1. it keeps us engaged
 
 There are other ways to achieve these 3 things, but promiscuous pairing is the quickest way for us.
-
-### Brain Dump
-
-Info I've written that may or may not find a place in the final post.
-
-At the beginning of every story we write a todo list in the code in comments so that everyone who
-picks up the story can, at a glance, know roughly where we are. The todo list doesn't eliminate the
-need for the Jedi to pass context to the Padawn, but it helps. But more importantly it forces us to
-think through the story to discuss our assumptions, address our questions, and sketch a rough
-design. Plus it helps us remember to make commits after each item is finished.
 
 [Promiscuous Pairing paper]: http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf
 [previous post on pairing]: https://engineering.itpro.tv/2018/10/24/how-we-work-pair-programming/

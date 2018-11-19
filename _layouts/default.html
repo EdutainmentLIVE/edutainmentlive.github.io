@@ -1,25 +1,16 @@
----
-layout: default
-title: {{ site.name }}
----
 <!DOCTYPE html>
 <html lang="{{ site.locale }}">
 
   {% include head.html %}
 
   <body>
+    {% include page-header.html %}
 
     <section class="main-content">
-      {% include page-header.html %}
-      
-      <div id="home">
-        <h1>Blog Posts</h1>
-        <ul class="posts">
-          {% for post in site.posts %}
-            <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
+
+      {{ content }}
+
+      {% include page-footer.html %}
 
     </section>
 

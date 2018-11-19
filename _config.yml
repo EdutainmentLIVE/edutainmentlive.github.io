@@ -1,5 +1,6 @@
-description: Gain insight into how ITProTV engineers work with the latest technologies to develop ITProTV's end user applications.
+description: ITProTV’s engineers are facing challenges with optimism daily while working on ITProTV’s entirely custom-built site. See what’s happening in the engine room.
 permalink: pretty
+google_analytics: UA-43313614-13
 plugins:
   - jekyll-default-layout
   - jekyll-feed
@@ -11,7 +12,7 @@ plugins:
   - jemoji
 repository: EdutainmentLIVE/edutainmentlive.github.io
 theme: jekyll-theme-cayman
-title: ITProTV Engineering Blog
+title: Tales from the Engine Room | ITProTV’s Engineering Blog
 titles_from_headings:
   collections: true
   strip_title: true

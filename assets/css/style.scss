@@ -10,47 +10,112 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-  color: #151746;
-  font-family: 'Proxima Nova', sans-serif;
+nav {
+  background-color: #f9f9fa;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-h2 {
-  color: #151746;
-  font-family: 'Proxima Nova', sans-serif;
-}
-
-p {
-  font-family: 'adelle-sans', sans-serif;
-  font-size: 16px;
-  color: #525656;
-}
-
-.main-content {
+footer {
   width: 100%;
-  padding: 0;
-  h1 {
-    color: #151746;
+  background-color: #f9f9fa;
+  padding: 1rem 4rem;
+  text-align: center;
+  a {
+    color: #10069f;
   }
+}
 
-  h2 {
-    color: #151746;
-  }
+.logo {
+  width: 170px;
+}
+
+h1 {
+  line-height: 2.2rem;
 }
 
 .page-header {
   background-color: #151746;
   background-image: none;
+  max-width: 100%;
   h1 {
-    color: white;
+    padding-bottom: 1rem;
   }
-  h2 {
+  h1, h2, h3 {
     color: white;
   }
 }
 
-@media screen and (min-width: 64em) {
-  .main-content {
-    max-width: 100%;
+.wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.default-content {
+  ul {
+    li {
+      list-style-type: none;
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 0;
+      a {
+        color: #151746;
+      }
+    }
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.default-content, .page-content {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  .post {
+    img {
+      max-width: 100%;
+    }
+    .breadcrumb {
+      margin-bottom: 2rem;
+    }
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #151746;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+  }
+  p {
+    font-family: 'adelle-sans', sans-serif;
+    font-size: 16px;
+    color: #525656;
+  }
+  a {
+    color: #10069f;
+  }
+  ol li, ul li {
+    font-family: 'adelle-sans', sans-serif;
+    color: #525656;
+  }
+  .arrow {
+    margin-left: 8px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .page-content {
+    .post {
+      .breadcrumb {
+        margin-bottom: 4rem;
+      }
+    }
   }
 }

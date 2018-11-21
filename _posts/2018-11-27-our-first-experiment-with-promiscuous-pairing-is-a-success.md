@@ -25,8 +25,8 @@ We have 1-week sprints from Tuesday to Tuesday. We decided our experiments would
 We used 2 1.5-hour blocks in the morning and 2 2-hour blocks in the afternoon. For any given block,
 one person was the Jedi (they were on the story during the previous block) and the other was the
 padawn. When rotating pairs, we tried to put the person with the least knowledge of the story on
-that story as the next padawn. The padawn nearly always drove the entire time while the Jedi
-navigated.
+that story as the next padawn. The padawn drove on their own machine (with few exceptions) while the
+Jedi navigated.
 
 While our team has an even number, the lead engineer wasn't always pairing so we were often left
 with a Han Solo who did solo work. That solo work usually included things like reviewing PRs,
@@ -67,6 +67,9 @@ I asked our team "What do you enjoy about promiscuous pairing?", and below are a
 
 > It was easier to stay engaged because I was constantly unsure what was going on ;)
 
+> It really highlighted development environment issues, and we mostly managed to get the problems
+> sorted out.
+
 ## Complications
 
 Though the experiment was an overwhelming success, there were complications that we had to address.
@@ -88,14 +91,21 @@ notes forced us to think through the story to discuss our assumptions, address o
 sketch a rough design before we ever began writing code. Plus it helped us remember to make commits
 after each todo item was finished.
 
+Such a heavy schedule was tiring for the entire team. Since promiscuous pairing requires lots of
+communication the schedule was especially taxing on our teammates who are introverted. After the
+first week we relaxed our schedule ever-so-slightly, but it was still quite full and often very
+tiring.
+
 ## Why Does Promiscuous Pairing Work?
 
 We're not entirely convinced that promiscuous pairing works inherently. Rather, we think it works
-for three reasons
+because it
 
-1. it requires good habits to successfully implement
-1. it distributes both domain-specific and tool-specific knowledge very rapidly
-1. it keeps us engaged
+1. requires good habits to successfully implement
+1. distributes both domain-specific and tool-specific knowledge very rapidly
+1. keeps us engaged
+1. improves morale
+1. exposes environment issues
 
 There are other ways to achieve these 3 things, but promiscuous pairing is the quickest way for us.
 

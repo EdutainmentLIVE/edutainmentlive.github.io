@@ -2,14 +2,14 @@
 
 by Cameron Gera (@gera-cameron)
 
-[PHOTO HERE]
+![A photo of ITProTV Team doing push ups][]
 
 ## Why
 
 The culture of our engineering team here at ITProTV encourages healthy habits. We all enjoy taking
 care of our bodies, so why wouldn't we want to do the same at work! The two main ways we do this is
 through, you guessed it, team exercise and stand desks. There is a lot of research out there on what
-improves workplace morale, but for us these two elements help our team be the happiest and most
+improves workplace morale, but for us, these two elements help our team be the happiest and most
 productive we can be.
 
 ## Team Exercise
@@ -31,29 +31,20 @@ I know it sounds like a lot to do it every hour, but we have seen quite a few be
 
 This experiment has positively affected our team here. With taking just a few extra minutes a day,
 we increased our work completed by 17% for a 4-month span. We have also encouraged other ITProTV
-employees to join our Slack channel and together we keep each other accountable to following a healthy
+employees to join our Slack channel and together we keep each other accountable in living a healthy
 lifestyle.
 
-### Stand Desk
+## Stand Desk
 
-When I started here at ITProTV, the engineering team had recently received stand desks, so for me
-it's the norm. The reasons leadership invested were unclear to me, but I wasn't complaining. I
-loved the flexibility and usefulness these desks offered.
-
-After working here for a few months, I found out that the leadership team invested in stand desks
-because that's what the engineering team wanted. It was cool to know that leadership was willing
-to meet the requests of their employees. After the engineering team got stand desks the rest of
-the company wanted them, so when we moved into our new office building leadership a lot more of
-them.
-
-As a team, our use of the stand desk varies. I stand a few times a day and generally use a balance
+For our engineering team, stand desks offer another great way to keep a healthy lifestyle. As a team,
+our use of the stand desk varies. I stand a few times a day and generally use a balance
 board, while one of my coworkers stands a majority of the day. If you've read our previous
-[post](http://engineering.itpro.tv/2018/10/24/how-we-work-pair-programming/) on
+[post][] on
 pair programming, you know that we spend a lot of time at stand desk pairing stations, so we tend
 to agree to stand or sit for a given pairing station.
 
-As I mentioned above, there is a lot of research out there on the benefits of stand desks, but the
-biggest benefits for our team are:
+As far as research is concerned, stand desk allow your body to burn a [modest][] amount of calories,
+but for us, it is so much more. The biggest benefits for our team are:
 
 1. Less stiff and stagnant
 1. Better posture
@@ -61,3 +52,32 @@ biggest benefits for our team are:
 
 These benefits really help us stay healthy and get moving as a team. Together with exercising, our
 morale stays positive and we continue to see our productivity increase.
+
+## How To Get Started
+
+Implementing these two ideas for your workspace will most likely vary in difficulty. For exercise, there is no
+real cost associated. All you really need to do is get your coworkers on board and pick a time of the hour that
+works best for each of you. I would recommend getting your whole team to do it, but if that's not possible, have
+at least one other person do it with you. The accountability alone will increase your chances of success.
+
+Getting stand desks may be a little bit more challenging because there is a cost associated. The cost of stand
+desks range from $400 to $1000+, but fear not, there are other alternatives, such as a [cardboard][] stand desk
+or an [adjustable height desktop][] stand desk. If you aren't ready to fully commit, I would definitely recommend
+a cheaper option to see if a stand desk works for you.
+
+As a team, we really only had one hesitation when beginning to exercise and that was the interruption of flow, but
+after months of this experiment, exercise is here to stay in our daily routine, so I would encourage you to take a
+leap and see if it works for you!
+
+## In Review
+
+Over the last 5 months, our team has taking the time to invest in our health by exercising
+every hour and utilizing our stand desks. The results speak for themselves. Our moral is higher
+and our productivity improved. Our tactics may not work for you, but I would encourage you to
+take step towards implementing some of these ideas. I don't think you'll regret it!
+
+[A photo of ITProTV Team doing push ups]: /assets/2018-11-26-push-ups.jpg
+[post]: http://engineering.itpro.tv/2018/10/24/how-we-work-pair-programming/
+[modest]: https://journals.sagepub.com/doi/full/10.1177/2047487317752186
+[cardboard]: https://www.amazon.com/Ergodriven-Spark-Perfect-Start-Standing/dp/B01GGNV6R0/ref=asc_df_B01GGNV6R0/?tag=hyprod-20&linkCode=df0&hvadid=167159666528&hvpos=1o1&hvnetw=g&hvrand=2213568287153477250&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015033&hvtargid=pla-308490592211&psc=1
+[adjustable height desktop]: https://www.amazon.com/Zinus-Standing-Adjustable-Desktop-Workstation/dp/B07CYGJ2RX/ref=asc_df_B07CYGJ2RX/?tag=hyprod-20&linkCode=df0&hvadid=242006877549&hvpos=1o1&hvnetw=g&hvrand=10265816361159775945&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015033&hvtargid=aud-466360936450:pla-450725801987&psc=1

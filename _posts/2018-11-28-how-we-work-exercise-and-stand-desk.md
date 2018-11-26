@@ -77,7 +77,7 @@ and our productivity improved. Our tactics may not work for you, but I would enc
 take step towards implementing some of these ideas. I don't think you'll regret it!
 
 [A photo of ITProTV Team doing push ups]: /assets/2018-11-26-push-ups.jpg
-[post]: http://engineering.itpro.tv/2018/10/24/how-we-work-pair-programming/
+[post]: {% post_url 2018-10-24-how-we-work-pair-programming %}
 [modest]: https://journals.sagepub.com/doi/full/10.1177/2047487317752186
 [cardboard]: https://www.amzn.com/B01GGNV6R0
 [adjustable height desktop]: https://www.amzn.com/B07CYGJ2RX

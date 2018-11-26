@@ -7,7 +7,7 @@ by Cameron Gera (@gera-cameron)
 ## Why
 
 The culture of our engineering team here at ITProTV encourages healthy habits. We all enjoy taking
-care of our bodies, so why wouldn't we want to do the same at work! The two main ways we do this is
+care of our bodies, so why wouldn't we want to do the same at work!? The two main ways we do this is
 through, you guessed it, team exercise and stand desks. There is a lot of research out there on what
 improves workplace morale, but for us, these two elements help our team be the happiest and most
 productive we can be.
@@ -41,7 +41,7 @@ our use of the stand desk varies. I stand a few times a day and generally use a 
 board, while one of my coworkers stands a majority of the day. If you've read our previous
 [post][] on
 pair programming, you know that we spend a lot of time at stand desk pairing stations, so we tend
-to agree to stand or sit for a given pairing station.
+to agree to stand or sit for a given pairing rotation.
 
 As far as research is concerned, stand desk allow your body to burn a [modest][] amount of calories,
 but for us, it is so much more. The biggest benefits for our team are:

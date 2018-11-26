@@ -39,7 +39,7 @@ lifestyle.
 For our engineering team, stand desks offer another great way to keep a healthy lifestyle. As a team,
 our use of the stand desk varies. I stand a few times a day and generally use a balance
 board, while one of my coworkers stands a majority of the day. If you've read our previous
-[post]({% post_url 2018-10-24-how-we-work-pair-programming %}) on
+[post]({{ site.baseurl }}{% post_url 2018-10-24-how-we-work-pair-programming %}) on
 pair programming, you know that we spend a lot of time at stand desk pairing stations, so we tend
 to agree to stand or sit for a given pairing rotation.
 

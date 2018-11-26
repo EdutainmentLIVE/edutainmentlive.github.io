@@ -79,5 +79,5 @@ take step towards implementing some of these ideas. I don't think you'll regret 
 [A photo of ITProTV Team doing push ups]: /assets/2018-11-26-push-ups.jpg
 [post]: http://engineering.itpro.tv/2018/10/24/how-we-work-pair-programming/
 [modest]: https://journals.sagepub.com/doi/full/10.1177/2047487317752186
-[cardboard]: https://www.amazon.com/Ergodriven-Spark-Perfect-Start-Standing/dp/B01GGNV6R0/ref=asc_df_B01GGNV6R0/?tag=hyprod-20&linkCode=df0&hvadid=167159666528&hvpos=1o1&hvnetw=g&hvrand=2213568287153477250&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015033&hvtargid=pla-308490592211&psc=1
-[adjustable height desktop]: https://www.amazon.com/Zinus-Standing-Adjustable-Desktop-Workstation/dp/B07CYGJ2RX/ref=asc_df_B07CYGJ2RX/?tag=hyprod-20&linkCode=df0&hvadid=242006877549&hvpos=1o1&hvnetw=g&hvrand=10265816361159775945&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1015033&hvtargid=aud-466360936450:pla-450725801987&psc=1
+[cardboard]: https://www.amzn.com/B01GGNV6R0
+[adjustable height desktop]: https://www.amzn.com/B07CYGJ2RX

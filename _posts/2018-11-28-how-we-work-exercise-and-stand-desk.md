@@ -39,7 +39,7 @@ lifestyle.
 For our engineering team, stand desks offer another great way to keep a healthy lifestyle. As a team,
 our use of the stand desk varies. I stand a few times a day and generally use a balance
 board, while one of my coworkers stands a majority of the day. If you've read our previous
-[post][] on
+[post]({% post_url 2018-10-24-how-we-work-pair-programming %}) on
 pair programming, you know that we spend a lot of time at stand desk pairing stations, so we tend
 to agree to stand or sit for a given pairing rotation.
 
@@ -76,8 +76,8 @@ every hour and utilizing our stand desks. The results speak for themselves. Our 
 and our productivity improved. Our tactics may not work for you, but I would encourage you to
 take step towards implementing some of these ideas. I don't think you'll regret it!
 
+
 [A photo of ITProTV Team doing push ups]: /assets/2018-11-26-push-ups.jpg
-[post]: {% post_url 2018-10-24-how-we-work-pair-programming %}
 [modest]: https://journals.sagepub.com/doi/full/10.1177/2047487317752186
-[cardboard]: https://www.amzn.com/B01GGNV6R0
+[cardboard]:https://www.amzn.com/B01GGNV6R0
 [adjustable height desktop]: https://www.amzn.com/B07CYGJ2RX

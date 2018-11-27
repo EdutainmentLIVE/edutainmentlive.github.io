@@ -79,5 +79,5 @@ take step towards implementing some of these ideas. I don't think you'll regret 
 
 [A photo of ITProTV Team doing push ups]: /assets/2018-11-26-push-ups.jpg
 [modest]: https://journals.sagepub.com/doi/full/10.1177/2047487317752186
-[cardboard]:https://www.amzn.com/B01GGNV6R0
+[cardboard]: https://www.amzn.com/B01GGNV6R0
 [adjustable height desktop]: https://www.amzn.com/B07CYGJ2RX

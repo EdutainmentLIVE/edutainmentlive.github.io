@@ -15,7 +15,7 @@ productive we can be.
 ## Team Exercise
 
 At the 50th of every working hour, we get a notification in [Slack](https://slack.com) to exercise.
-The exercises we do vary day to day because we generally get sore (note the everyone does them to
+The exercises we do vary day to day because we generally get sore (note that everyone does them to
 their own ability, and we try really hard to encourage, rather than discourage, each other). Some
 of the exercises include:
 
@@ -45,7 +45,7 @@ board, while one of my coworkers stands a majority of the day. If you've read ou
 pair programming, you know that we spend a lot of time at stand desk pairing stations, so we tend
 to agree to stand or sit for a given pairing rotation.
 
-As far as research is concerned, stand desk allow your body to burn a [modest][] amount of calories,
+As far as research is concerned, a stand desk allows your body to burn a [modest][] amount of calories,
 but for us, it is so much more. The biggest benefits for our team are:
 
 1. Less stiff and stagnant

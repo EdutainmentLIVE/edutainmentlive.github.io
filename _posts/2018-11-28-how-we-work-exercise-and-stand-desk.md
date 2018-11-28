@@ -27,7 +27,7 @@ I know it sounds like a lot to do it every hour, but we have seen quite a few be
 1. Allows a break from the code we are writing
 1. Increased productivity
 
-**Crazy Stat!** As a team, we have done over 20,000 push-ups since June 28th, 2018.
+**Crazy Stat!** As a team, we have done over 21,000 push-ups since June 28th, 2018.
 
 This experiment has positively affected our team here. With taking just a few extra minutes a day,
 we increased our work completed by 17% for a 4-month span. We have also encouraged other ITProTV

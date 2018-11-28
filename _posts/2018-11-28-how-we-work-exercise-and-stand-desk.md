@@ -14,8 +14,10 @@ productive we can be.
 
 ## Team Exercise
 
-This element of our workday occurs at the 50th of every hour between eight and five. The exercises we do vary day
-to day because we generally get sore. Some of the exercises include:
+At the 50th of every working hour, we get a notification in [Slack](https://slack.com) to exercise.
+The exercises we do vary day to day because we generally get sore (note the everyone does them to
+their own ability, and we try really hard to encourage, rather than discourage, each other). Some
+of the exercises include:
 
 - Push-ups
 - Crunches
@@ -71,7 +73,7 @@ leap and see if it works for you!
 
 ## In Review
 
-Over the last 5 months, our team has taking the time to invest in our health by exercising
+Over the last 5 months, our team has taken the time to invest in our health by exercising
 every hour and utilizing our stand desks. The results speak for themselves. Our moral is higher
 and our productivity improved. Our tactics may not work for you, but I would encourage you to
 take step towards implementing some of these ideas. I don't think you'll regret it!

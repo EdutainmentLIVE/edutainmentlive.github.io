@@ -14,7 +14,7 @@ by Jason Fry (@JasonMFry)
 1. Improves our code
     1. Two people make better design decisions than one person
     1. Part of the second person's job is to spot opportunities for refactoring, so we're constantly
-       refactoring out codebase
+       refactoring our codebase
 
 ## How We Got Started Pairing
 

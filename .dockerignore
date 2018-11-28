@@ -1,0 +1,6 @@
+/_site/
+/.git/
+/.sass-cache/
+/gems.locked
+/gems.rb.lock
+/vendor/

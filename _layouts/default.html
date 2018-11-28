@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+
+  {% include head.html %}
+
+  <body>
+    {% include page-header.html %}
+
+    <div class="page-header">
+      <div class="wrapper">
+        <h1 class="project-name">ITProTV's Engineering Blog</h1>
+        <h3 class="project-subname">Tales from the Engine Room</h3>
+        <h2 class="project-tagline">{{ site.description }}</h2>
+      </div>
+    </div>
+
+    <section class="default-content">
+
+      <div class="wrapper">
+        {{ content }}
+      </div>
+
+      {% include page-footer.html %}
+
+    </section>
+
+  </body>
+</html>

@@ -1,13 +1,17 @@
 ---
-layout: default
+layout: page
 ---
 
-<h1>
-  {{ page.title | escape }}
-</h1>
+<div markdown="1" class="post">
+  <p class="breadcrumb"><a href="{{ site.url }}">Blog home</a> > {{ page.title }}</p>
 
-<p>
-  Published on {{ page.date | date: '%A, %B %e, %Y' | escape }}.
-</p>
+  <h1>
+    {{ page.title | escape }}
+  </h1>
 
-{{ content }}
+  <p>
+    Published on {{ page.date | date: '%A, %B %e, %Y' | escape }}.
+  </p>
+
+  {{ content }}
+</div>

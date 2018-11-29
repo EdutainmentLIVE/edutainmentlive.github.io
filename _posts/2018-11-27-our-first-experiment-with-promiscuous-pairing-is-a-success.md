@@ -22,7 +22,7 @@ meaning that we usually chose our own stories but occasionally we were assigned 
 ## Implementation
 
 We have 1-week sprints from Tuesday to Tuesday. We decided our experiments would be for 4 sprints.
-We used 2 1.5-hour blocks in the morning and 2 2-hour blocks in the afternoon. For any given block,
+We used two 1.5-hour blocks in the morning and two 2-hour blocks in the afternoon. For any given block,
 one person was the Jedi (they were on the story during the previous block) and the other was the
 padawn. When rotating pairs, we tried to put the person with the least knowledge of the story on
 that story as the next padawn. The padawn drove on their own machine (with few exceptions) while the
@@ -36,15 +36,45 @@ Stories were still a mix of pull-based and push-based.
 
 ## Benefits
 
-The data below is for our first experience with promiscuous pairing, from 2018-10-16 to 2018-11-13.
-
-Note that the experiment here was just trying to figure out promiscuous pairing. We went into this
-experiment expecting it to take some time before it paid off, if it paid off at all. Boy were we
-wrong...in a good way :smile:
+Remember that the experiment here was just trying to figure out promiscuous pairing. We went into
+this experiment expecting it to take some time before it paid off, if it paid off at all. Boy were
+we wrong...in a good way :smile:
 
 ### Data
 
-<!-- add before and after data from clubhouse -->
+The data below captures the 3 months before our experiment and the month of our experiment to
+provide some context. Note that each report overlaps by 1 day because our Sprints go from Tuesday
+12pm to Tuesday 12pm, and Clubhouse (our Project Management software) won't allow us to get granular
+enough on these reports.
+
+Another caveat: our contract finished with [Flipstone Technology Partners](http://flipstone.com)
+during the time of these reports, specifically we went from 2 contractors to 1 sometime in
+September, and from 1 to 0 sometime in October (before our experiment began). Even losing over 1/4
+of our engineers, the report from our experiment has just as many points and stories as the report
+from July 24 - August 21 when we had those two contractors.
+
+#### Before Promiscuous Pairing
+
+##### July 24 - August 21
+
+![Story Points July 24 to August 21][]
+
+##### August 21 - September 18
+
+![Story Points August 21 to September 18][]
+
+##### September 18 - October 16
+
+![Story Points September 18 to October 16][]
+
+#### First Experiment with Promiscuous Pairing
+
+##### October 16 - November 13
+
+![Story Points October 16 to November 13][]
+
+As you can see we were just as productive when promiscuously pairing with 6 engineers, as we were
+when not promiscuously pairing with 8 engineers.
 
 ### Anecdotal Benefits
 
@@ -106,8 +136,13 @@ because it
 1. keeps us engaged
 1. improves morale
 1. exposes environment issues
+1. provides an opportunity for the Han Solo to handle chores, allowing others to stay focused
 
-There are other ways to achieve these 3 things, but promiscuous pairing is the quickest way for us.
+There are other ways to achieve these things, but promiscuous pairing is the quickest way for us.
 
-[Promiscuous Pairing paper]: http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf
 [previous post on pairing]: https://engineering.itpro.tv/2018/10/24/how-we-work-pair-programming/
+[Promiscuous Pairing paper]: http://csis.pace.edu/~grossman/dcs/XR4-PromiscuousPairing.pdf
+[Story Points July 24 to August 21]: /assets/Story_Points_July24-Aug21.png
+[Story Points August 21 to September 18]: /assets/Story_Points_Aug21-Sept18.png
+[Story Points September 18 to October 16]: /assets/Story_Points_Sept18-Oct16.png
+[Story Points October 16 to November 13]: /assets/Story_Points_Oct16-Nov13.png

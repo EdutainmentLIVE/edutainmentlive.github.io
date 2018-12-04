@@ -13,6 +13,7 @@ plugins:
 repository: EdutainmentLIVE/edutainmentlive.github.io
 theme: jekyll-theme-cayman
 title: Tales from the Engine Room | ITProTV’s Engineering Blog
+url: https://engineering.itpro.tv
 titles_from_headings:
   collections: true
   strip_title: true

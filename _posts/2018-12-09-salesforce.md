@@ -1,70 +1,45 @@
-Our Problem
+Real-world Salesforce Object Query Language (SOQL) examples
 ===========
+by Cody Goodman (@codygman)
 
-spent lots of time trying to figure out how to do common use case of Salesforce SQL query with where statement
---------------------------------------------------------------------------------------------------------------
+Have you ever spent more time than you wanted trying to figure out what you think should be a very simple problem? While [pairing](TODO) another developer and I experienced this problem, and thought it would be helpful to share the results of our problem solving to save others time.
 
-What could have fixed it
-========================
+The simple select statement with a `WHERE` in a url query param being pretty simple in the end:
 
-More real-world examples of common sql queries
-----------------------------------------------
-
-### This would have helped demonstrate for instance that identifiers after the where must be single quoted
-
-### and if there are any other gotchas we don't know about, it would have covered the most common you need to know
-
-real-world SOQL examples
-========================
-
-simplest query from the docs
-----------------------------
-
-``` {.bash .rundoc-block rundoc-language="sh" rundoc-exports="both"}
-curl "https://yourInstance.salesforce.com/services/data/v20.0/query/?q=SELECT+name+from+Account" -H "Authorization: Bearer token"
 ```
-
-limiting that query
--------------------
-
-``` {.bash .rundoc-block rundoc-language="sh" rundoc-exports="both"}
-curl "https://yourInstance.salesforce.com/services/data/v20.0/query/?q=SELECT+name+from+Account+LIMIT+10" -H "Authorization: Bearer token"
-```
-
-adding a where constraint
--------------------------
-
-``` {.bash .rundoc-block rundoc-language="sh" rundoc-exports="both"}
 curl "https://yourInstance.salesforce.com/services/data/v20.0/query/?q=SELECT+name+from+Account+WHERE+id='ACCOUNT_ID'" -H "Authorization: Bearer token"
 ```
 
-terminology that threw us off
-=============================
+Note that the value must be quoted, that quotes are valid in urls, and you do not need to escape them. Any knowledge of SQL combined with browsing the [SOQL docs](https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm) would confirm that the SOQL query is:
 
-instance
---------
+```
+SELECT+name+from+Account+WHERE+id='ACCOUNT_ID'
+```
 
-account
--------
+Looking at the [Condition Expression Syntax documentation](TODO) you'll see more examples which are all very helpful, but the leave the question of integration as an exercise to the reader, even the [Execute an SOQL query using curl docs](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_query.htm) only have the simplest example. The problem is that the docs assumed construction of the SOQL query and transformation needed to use of it in it a query parameter was trivial and not worth covering. In our case a simple example of using SOQL with curl like we posted above would have drastically improved our user experience with the Salesforce api.
 
-Why do all the fields have `__c`?
----------------------------------
 
-misc
-====
+Various other SOQL examples we wrote
+===========
 
-How to get your instance?
+## Simplest curl SOQL query
+
+```
+curl "https://yourInstance.salesforce.com/services/data/v20.0/query/?q=SELECT+name+from+Account" -H "Authorization: Bearer token"
+```
+## Simplest curl SOQL query + limit
+-------------------
+
+```
+curl "https://yourInstance.salesforce.com/services/data/v20.0/query/?q=SELECT+name+from+Account+LIMIT+10" -H "Authorization: Bearer token"
+```
+
+
+## Simplest curl SOQL query + where
 -------------------------
 
-difference between testing environment instance and your production instance
-----------------------------------------------------------------------------
+```
+curl "https://yourInstance.salesforce.com/services/data/v20.0/query/?q=SELECT+name+from+Account+WHERE+id='ACCOUNT_ID'" -H "Authorization: Bearer token"
+```
 
-pay attention to version differences
-------------------------------------
-
-how to find the version of api your salesforce instance can use
----------------------------------------------------------------
-
-### I think all salesforce instances can use newest and versioning is only for client code you write sticking to the api contract
-
-### so maybe nothing more to say here
+Hopefully these examples saved you some time and encouraged you to think from the perspective of your api consumer when writing api documentation.

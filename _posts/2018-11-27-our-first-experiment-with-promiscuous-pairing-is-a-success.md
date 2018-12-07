@@ -31,9 +31,9 @@ meaning that we usually chose our own stories but occasionally we were assigned 
 We have 1-week sprints that start Tuesday at 12pm and end the following Tuesday at 0930am (we hold
 our ceremonies 0930-1200). We decided our experiments would be for 4 sprints. We used two 1.5-hour
 blocks in the morning and two 2-hour blocks in the afternoon. For any given block, one person was
-the Jedi (they were on the story during the previous block) and the other was the padawn. When
+the Jedi (they were on the story during the previous block) and the other was the Padawan. When
 rotating pairs, we tried to put the person with the least knowledge of the story on that story as
-the next padawn. The padawn drove on their own machine (with few exceptions) while the Jedi
+the next Padawan. The Padawan drove on their own machine (with few exceptions) while the Jedi
 navigated.
 
 While our team has an even number, the lead engineer wasn't always pairing so we were often left
@@ -123,7 +123,7 @@ do you enjoy about promiscuous pairing?", and below are all of our answers.
 Though the experiment was an overwhelming success, there were complications that we had to address.
 
 Passing context from pair-to-pair was the most difficult complication. There were a few times when
-the Jedi couldn't answer the padawn's questions, and since we weren't used to this experience we
+the Jedi couldn't answer the Padawan's questions, and since we weren't used to this experience we
 didn't do a good job of asking the previous Jedi; instead we grumbled and complained (mostly me, the
 author :slightly_frowning_face:).
 
@@ -133,7 +133,7 @@ learned to schedule our day around such known scheduling complications so that t
 leave would be Han Solo at that time, but it was difficult until we figured that out.
 
 Eventually we learned to put lots of temporary notes in the code to capture design decisions and
-todo lists which made it much easier to onboard a padawn. In fact, we were able to get our
+todo lists which made it much easier to onboard a Padawan. In fact, we were able to get our
 onboarding time down to 5 minutes and sometimes less. While this wasn't our intention, adding those
 notes also forced us to think through the story to discuss our assumptions, address our questions, and
 sketch a rough design before we ever began writing code. Plus it helped us remember to make commits

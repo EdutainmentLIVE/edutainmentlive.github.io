@@ -16,7 +16,7 @@ Note that the value must be quoted, that quotes are valid in urls, and you do no
 SELECT+name+from+Account+WHERE+id='ACCOUNT_ID'
 ```
 
-Looking at the [Condition Expression Syntax documentation](TODO) you'll see more examples which are all very helpful, but the leave the question of integration as an exercise to the reader, even the [Execute an SOQL query using curl docs](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_query.htm) only have the simplest example. The problem is that the docs assumed construction of the SOQL query and transformation needed to use of it in it a query parameter was trivial and not worth covering. In our case a simple example of using SOQL with curl like we posted above would have drastically improved our user experience with the Salesforce api.
+Looking at the [Condition Expression Syntax documentation](TODO) you'll see more examples which are all very helpful, but they leave the question of integration as an exercise to the reader, even the [Execute an SOQL query using curl docs](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_query.htm) only has the simplest example. The problem is that the docs assumed constructing the SOQL query--and any transforming needed to use it in a query parameter--was trivial and not worth covering. In our case a simple example of using SOQL with curl like we posted above would have drastically improved our user experience with the Salesforce API and would have saved us literally hours.
 
 
 Various other SOQL examples we wrote

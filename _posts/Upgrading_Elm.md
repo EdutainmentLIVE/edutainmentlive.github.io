@@ -20,7 +20,7 @@ The creator of Elm released [this upgrade guide](https://github.com/elm/compiler
 
 ## Potential Upgrade Changes
 
-1. As noted, having a working compiler, especially elm's friendly compiler, makes working through kinks much easier. With 0.19, the compiler and packages have to be upgraded simultaneously. If these were to be separated, allowing for one to be upgraded at a time, the upgrade process would be much smoother in both scenarios.
+1. As noted, having a working compiler, especially elm's friendly compiler, makes working through kinks much easier. With 0.19, the compiler and packages have to be upgraded simultaneously. If these were separate, allowing for one to be upgraded at a time, the upgrade process would be much smoother in both scenarios.
 1. While breaking changes can be necessary, it would be nice to have a bridge in-between in order to help acclimate to a breaking change - for example, introducing breaking changes but allowing for compiler compatibility in an 0.18.5 version in order to make the change over from 0.18 to 0.19 smoother.
 1. Make previous version documentation easier to find and make it easier to compare to new version, in case type signatures change. A lot of the documentation available for other languages allows a user to select versions to look at in order to compare between versions.
 

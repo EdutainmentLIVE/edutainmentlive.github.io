@@ -1,7 +1,9 @@
 # Upgrading Elm from 0.18 to 0.19
 by Sara Lichtenstein (@saralich)
 
-[Elm](https://elm-lang.org/) is a front-end, functional language that compiles into JavaScript for seamless web development. When I started at ITProTV, we were using Elm 0.18 for one of our apps. As we worked on that app, we decided it was in our best interest to update our app once Elm 0.19 was released. The creator of Elm released [this upgrade guide](https://github.com/elm/compiler/blob/a968e817e65d30493c344ac96c9c904b19a7f038/upgrade-docs/0.19.md) as well as [this document about what changed](https://elm-lang.org/blog/small-assets-without-the-headache), both were helpful but neither was an end-all answer. In this post, we will go over what didn't go well for us, changes we as a team would suggest, and the wonderful things about Elm 0.19 that make this upgrade worth the potential struggle.
+[Elm](https://elm-lang.org/) is a front-end, functional language that compiles to JavaScript for seamless web development, and we love it. It's been around for years and in August of 2018 it upgraded to version 0.19. We didn't get around to upgrading our app to 0.19 until January of 2019. This is our experience.
+
+The creator of Elm released [this upgrade guide](https://github.com/elm/compiler/blob/a968e817e65d30493c344ac96c9c904b19a7f038/upgrade-docs/0.19.md) as well as [this document about what changed](https://elm-lang.org/blog/small-assets-without-the-headache), both were helpful but neither was an end-all answer. In this post, we will go over what didn't go well for us, changes we as a team would suggest, and the wonderful things about Elm 0.19 that make this upgrade worth the potential struggle.
 
 ## What Didn't Go Well For Us
 

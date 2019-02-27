@@ -1,43 +1,28 @@
 # Upgrading Elm from 0.18 to 0.19
+by Sara Lichtenstein (@saralich)
 
-Our goal with this blog post is 1) to highlight some things Elm can do differently in the future to
-make the upgrade process easier, and 2) help the community upgrade their stuff.
+[Elm](https://elm-lang.org/) is a front-end, functional language that compiles into JavaScript for seamless web development. When I started at ITProTV, we were using Elm 0.18 for one of our apps. As we worked on that app, we decided it was in our best interest to update our app once Elm 0.19 was released. The creator of Elm released [this upgrade guide](https://github.com/elm/compiler/blob/a968e817e65d30493c344ac96c9c904b19a7f038/upgrade-docs/0.19.md) as well as [this document about what changed](https://elm-lang.org/blog/small-assets-without-the-headache), both were helpful but neither was an end-all answer. In this post, we will go over what didn't go well for us, changes we as a team would suggest, and the wonderful things about Elm 0.19 that make this upgrade worth the potential struggle.
 
-It will be easy to slip into negative nancy mode here, instead try hard to be positive and
-encouraging (K-LOVE) even when talking about the stuff that we didn't like.
+## What Didn't Go Well For Us
 
-## What We Like about 0.19
-
-We haven't used it much since we updated so maybe we should change this section to 'What Went Well
-While Upgrading' or something? Or ask Rob what he most likes about 0.19 to help us brainstorm.
-
-1. Compiler is even friendlier than before. It bought me coffee!
-1. More elm/ packages (elm supported, not sure what to call these)
-1. Removed polymorphic `toString` function.
-
-## What Didn't Go Well
-
-1. Compiler was unusable until we got the dependencies correct
-1. Some elm-community packages were no longer supported, and we chose those over others specifically
-   because they were elm-community and were more likely to be supported, integrated, or at least
-   easy to update
 1. Several breaking changes
    1. Date/Posix
    1. Navigation (key)
    1. JSON decoding
    1. HTTP library
    1. Various function signatures changed without obvious benefit
-1. Documentation was difficult to find for 0.18
+1. With breaking changes comes a broken compiler, which would not be revived until dependencies were sorted through. This is especially noticeable with Elm, whose compiler is very friendly and helpful, so not having it available was both obvious and painful. While that does make some sense, having a working compiler to guide us through how to use new dependencies would have been helpful in figuring out what was broken more efficiently.
+1.  The old documentation became tough to find - the 0.19 documents replaced 0.18 on elm-lang, and after some digging, we were able to find a Github site that contained the 0.18 docs. It was good they were somewhere, but some link between 0.19 and 0.18 would have been helpful.
+1. Some elm-community packages were no longer supported, and we chose those over others specifically because they were elm-community and were more likely to be supported, integrated, or at least easy to update.
+1. We had to fork and upgrade some dependencies because it was easier to upgrade them than to choose another dependency, namely [elm-bootstrap](https://github.com/rundis/elm-bootstrap) and [elm-dropdown](https://github.com/sporto/elm-dropdown). That's unfortunate but it happens.
 
-## What We Would Like to See Done Differently when Upgrading to 0.20
+## Potential Upgrade Changes
 
-1. Always have the compiler working for you
-1. Keep breaking changes to a minimum unless it's an obviously better. Or be backwards compatible
-   for a period of time
-1. Make previous version documentation easier to find and make it easier to compare to new version,
-   in case type signatures change.
+1. As noted, having a working compiler, especially elm's friendly compiler, makes working through kinks much easier. With 0.19, the compiler and packages have to be upgraded simultaneously. If these were to be separated, allowing for one to be upgraded at a time, the upgrade process would be much smoother in both scenarios.
+1. While breaking changes can be necessary, it would be nice to have a bridge in-between in order to help acclimate to a breaking change - for example, introducing breaking changes but allowing for compiler compatibility in an 0.18.5 version in order to make the change over from 0.18 to 0.19 smoother.
+1. Make previous version documentation easier to find and make it easier to compare to new version, in case type signatures change. A lot of the documentation available for other languages allows a user to select versions to look at in order to compare between versions.
 
-## Misc Irritations
+## What We Like about 0.19
 
-We had to fork and upgrade some dependencies because it was easier to upgrade them than to choose
-another dependency, namely elm-bootstrap and elm-dropdown. That's unfortunate but it happens.
+ 1. More elm/ packages, such as browser, json, svg, time, and url. We love having elm/ packages, because they are more likely to be kept up by the community and integrated into future Elm upgrades.
+ 1. Removed polymorphic `toString` function, which was replaced by Int.toString. This is good because explicit type safety.

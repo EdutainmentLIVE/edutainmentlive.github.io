@@ -5,7 +5,6 @@ by Sara Lichtenstein (@saralich)
 [Elm](https://elm-lang.org/) is a front-end, functional language that compiles to JavaScript for
 seamless web development, and we love it. It's been around for years and in August of 2018 it
 upgraded to version 0.19. We didn't get around to upgrading our app to 0.19 until January of 2019.
-This is our experience.
 
 The creator of Elm released [this upgrade
 guide](https://github.com/elm/compiler/blob/a968e817e65d30493c344ac96c9c904b19a7f038/upgrade-docs/0.19.md)
@@ -24,12 +23,15 @@ potential struggle.
       that change the URL, including back and forward.'
    1. HTTP library. We really liked these changes but this package felt like it had more breaking
       changes than any other package for us.
-   1. Various function signatures changed, some without obvious benefit
+   1. Various function signatures changed, some without obvious benefit. We're giving the Elm
+      maintainers the benefit of the doubt because they've made a great language and they're
+      probably way smarter than us, so there's probably good reason for the change, but this was
+      still just annoying.
 1. With breaking changes comes a broken compiler, which would not be revived until dependencies were
    sorted through. This is especially noticeable with Elm, whose compiler is very friendly and
    helpful, so not having it available was both obvious and painful. While that does make some
    sense, having a working compiler to guide us through how to use new dependencies would have been
-   helpful in figuring out what was broken more efficiently.
+   helpful in more efficiently figuring out what was broken.
 1. The old documentation became tough to find - the 0.19 documents replaced 0.18 on elm-lang, and
    after some digging we were able to find a Github site that contained the 0.18 docs, but then that
    went away and it was some time before we discovered their (hopefully permanent) location
@@ -37,10 +39,11 @@ potential struggle.
    between 0.19 and 0.18 would have been helpful.
 1. Some elm-community packages were no longer supported, and we chose those over others specifically
    because they were elm-community and were more likely to be supported, integrated, or at least
-   easy to update.
+   easy to update. But they didn't all make it into 0.19 which felt very disappointing.
 1. We had to fork and upgrade some dependencies because it was easier to upgrade them than to choose
    another dependency, namely [elm-bootstrap](https://github.com/rundis/elm-bootstrap) and
-   [elm-dropdown](https://github.com/sporto/elm-dropdown). That's unfortunate but it happens.
+   [elm-dropdown](https://github.com/sporto/elm-dropdown). Not really the fault of Evan and Co., but
+   it's just annoying.
 
 ## Potential Upgrade Changes
 
@@ -62,8 +65,7 @@ potential struggle.
 1. More elm/ packages, such as browser, json, svg, time, and url. We love having elm/ packages,
    because they are more likely to be kept up by the community and integrated into future Elm
    upgrades.
-1. Removed polymorphic `toString` function, which was replaced by Int.toString. This is good because
-   explicit type safety.
+1. Removed polymorphic `toString` function, which was replaced by Int.toString. This is safer.
 1. Documentation is better. It looks like Evan and Co. tried really hard to improve the examples to
    make them shorter and clearer wherever possible.
 1. HTTP package got markedly better with functions  like `riskyRequest` and `riskyTask` functions so

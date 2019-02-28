@@ -1,9 +1,9 @@
 # Upgrading Elm from 0.18 to 0.19
 
-by Sara Lichtenstein (@saralich)
+by The Engineering Team
 
 [Elm](https://elm-lang.org/) is a front-end, functional language that compiles to JavaScript for
-seamless web development, and we love it. It's been around for years and in August of 2018 it
+seamless web development, and we love it. It's been around for years, and in August of 2018 it
 upgraded to version 0.19. We didn't get around to upgrading our app to 0.19 until January of 2019.
 
 The creator of Elm released [this upgrade
@@ -18,32 +18,31 @@ potential struggle.
 
 1. Several breaking changes
    1. elm-lang/core/Date became elm/Time/Posix, but it doesn't quite have all the same functionality
-      and notably is no longer in core.
+      and, notably, is no longer in core.
    1. Navigation changed. From the docs, 'A navigation Key is needed to create navigation commands
       that change the URL, including back and forward.'
    1. HTTP library. We really liked these changes but this package felt like it had more breaking
       changes than any other package for us.
    1. Various function signatures changed, some without obvious benefit. We're giving the Elm
       maintainers the benefit of the doubt because they've made a great language and they're
-      probably way smarter than us, so there's probably good reason for the change, but this was
-      still just annoying.
+      probably way smarter than us, so there's probably good reason for the change, but we would have
+      preferred more explanation to these changes.
 1. With breaking changes comes a broken compiler, which would not be revived until dependencies were
    sorted through. This is especially noticeable with Elm, whose compiler is very friendly and
    helpful, so not having it available was both obvious and painful. While that does make some
-   sense, having a working compiler to guide us through how to use new dependencies would have been
-   helpful in more efficiently figuring out what was broken.
+   sense since the compiler was updated in tandem, having a working compiler to guide us through
+   how to use new dependencies would have been helpful in more efficiently figuring out what was broken.
 1. The old documentation became tough to find - the 0.19 documents replaced 0.18 on elm-lang, and
-   after some digging we were able to find a Github site that contained the 0.18 docs, but then that
-   went away and it was some time before we discovered their (hopefully permanent) location
-   [here](https://dmy.github.io/elm-0.18-packages/). It was good they were somewhere, but some link
-   between 0.19 and 0.18 would have been helpful.
+   after some digging we were able to find a Github site that contained their (hopefully permanent)
+   location [here](https://dmy.github.io/elm-0.18-packages/). It was good they were somewhere, but some
+   link between 0.19 and 0.18 would have been helpful.
 1. Some elm-community packages were no longer supported, and we chose those over others specifically
    because they were elm-community and were more likely to be supported, integrated, or at least
-   easy to update. But they didn't all make it into 0.19 which felt very disappointing.
+   easy to update; however, they didn't all make it into 0.19 which felt very disappointing.
 1. We had to fork and upgrade some dependencies because it was easier to upgrade them than to choose
    another dependency, namely [elm-bootstrap](https://github.com/rundis/elm-bootstrap) and
    [elm-dropdown](https://github.com/sporto/elm-dropdown). Not really the fault of Evan and Co., but
-   it's just annoying.
+   since it was something we had to handle, we've added it to this section.
 
 ## Potential Upgrade Changes
 

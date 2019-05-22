@@ -19,4 +19,4 @@ Subscribe now in [Apple Podcasts][] or [Google Podcasts]!
 [ITProTV]: https://www.itpro.tv
 [Haskell Weekly newsletter]: https://haskellweekly.news
 [Apple Podcasts]: https://itunes.apple.com/us/podcast/haskell-weekly/id1456545040?mt=2&app=podcast
-[Google Podcasts]: https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Irjo4hxyfeiid3zhasycmgs3o2q?t%3DHaskell_Weekly%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16
+[Google Podcasts]: https://podcasts.google.com/?feed=aHR0cHM6Ly9oYXNrZWxsd2Vla2x5Lm5ld3MvcG9kY2FzdC9mZWVkLnJzcw==

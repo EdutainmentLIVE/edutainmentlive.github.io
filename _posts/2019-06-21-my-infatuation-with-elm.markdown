@@ -49,7 +49,7 @@ Publishing a personal package is another story that I'll touch on later, but for
 I **LOVE** Elm's compiler.
 It's instruction is that of a caring mother who just wants you to succeed even when you try and cause chaos through your code.
 Besides that it gives you a ton of confidence when I am writing new code or refactoring ancient code.
-If I asked my coworkers, I am sure that they would say it is their favorite compiler, even if most of their compiler experience is with Haskell and Elm.
+If I asked my coworkers, I am sure that they would say it is their favorite compiler, even if most of their compiler experience is with Haskell.
 Its ability to use type inference to find all the edge cases ensures that your program does not have any runtime errors, which blows my mind.
 It also compiles quickly, which helps with development time.
 I have been impressed with the recent improvements to the compiler in the newest version.

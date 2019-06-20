@@ -21,7 +21,7 @@ This is a section that I could just write a whole blog about.
 The tooling is one of my favorite things about Elm.
 I'll start with the formatter, [Elm Format]().
 This formatter is uniquely opinionated and not very customizable.
-What I mean by **uniquely** opinionated is that it will allow you to have a line that extends past your desired buffer length (which is frustrating at times), but it formats very spaciously.
+One of the frustrating parts, when I say **uniquely** opinionated, is that it will allow you to have a line that extends past your desired buffer length.
 Whenever I walk into a formatted Elm file, I feel like I am relaxing in a sparse forest with plenty of fresh air.
 It has a few quirks like always having 2 new lines between any two blocks of code and it tends to freak out when comments are in the middle of functions.
 To me those things are minor in comparison to the ability the formatter gives me to write sloppy code, then poof it is magically beautiful.

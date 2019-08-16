@@ -28,15 +28,63 @@ The LTI Consumer is the LMS.
 The LTI Tool Provider is the external service that the LMS is trying to access.
 The authentication works through a key and secret system with some other configurable pieces on the LMS side.
 
-Talk about the following for LTI
-Consumer Key
-Shared Secret
-Launch URL
-Domain
-Privacy
+The terms to know in regards to authentication are the following:
+
+- **Consumer Key** - This is a shared key between the Consumer and the Tool Provider.
+- **Shared Secret** - This is the privately shared secret between the Consumer and the Tool Provider.
+- **Launch URL** - This is the url that the user would go to in order to launch the Tool Provider.
+- **Domain** - This is derived from the Launch URL and seems to be optional in my experience.
+- **Privacy** - This is the level of privacy for the information shared with the Tool Provider.
+- **Custom Fields** - These are the custom fields that will allow the Tool Provider to tailor the experience to a specific Consumer.
+
+These variables are pretty simple to understand and they should be scary.
+A tough aspect is implementing the logic for authentication on the Tool Provider side.
+But fear not!
+There are libraries out there that will help like [PassportJS](http://www.passportjs.org/packages/passport-lti) and others to help.
+These libraries take care of some of the magic associated with LTI, but the give you a friendly interface to work with.
+We have been using PassportJS at work for quite a few years and we rarely have issues with our original implementation.
+I would definitely recommend!
 
 ## SAML Standard
 
+The SAML standard is more of a corporate world way to do single sign on.
+SAML stands for Security Assertion Markup Language.
+It provides shared authentication between an Identity Provider (IDP) and a Service Provider (SP).
+This is helpful when an organization has many services they use and only want their users to have one login.
+Honestly thinking about how it works isn't really too difficult, so I am going jump right in.
+
 ### How it works
 
+The core to SAML is having an authoritative source that service providers can trust.
+When setting up SAML, a set of metadata is shared between the two providers to set up a secure connection and make sure that all needed values for the SP are sent.
+See the flow diagram below for the end user's flow.
+
 >> PICTURE HERE
+
+As you can see the user begins by accessing the service provider and informing them that they belong to a certain identity provider.
+Once the service provider knows who the user is and where to send them to be authorized, they are redirect to the IDP login screen.
+After the IDP says they are good, they redirect back to the TP with a set of user identifiable information.
+When the SP sees this, it verifies that the payload was signed with the same certificate that the SP has on file.
+Now that we have proven the user is from a trusted source, the SP is able to give access to the user.
+
+Some terms to know are the following:
+
+- **Entry Point** - This is the endpoint on the Identity Provider side that the Service Provider redirects to for authentication.
+- **Callback URL** - This is an endpoint on the Service Provider side that listen for the SAML Payload from the Identity Provider.
+- **Issuer** - This is the Service Providers registered domain.
+- **Certificate** - This is what signs the payloads to verify security.
+- **Relay State** - This is a field that the Service Provider can set when redirecting to the entry point that will be sent back in the payload.
+
+
+Sounds pretty straight forward right and it is.
+SAML is one of the most common integrations that I am familiar with.
+The ability to use a single login to access many tools is becoming a must have in the corporate world.
+I would encourage you to check out more documentation if you have more curiosity!
+
+## To Conclude
+
+Here at ITProTV, we always look for ways to enhance our user experience and adding single sign on integrations have been a huge bonus for many of our corporate accounts.
+The jargon around these single sign on strategies can confuse all kinds of people and the scientific papers are almost too specific.
+With that being said, the overall desire for single sign on is growing more and more because people prefer to have one username and password to log into work/academic tools.
+So my home is that after checking this out, you gained some clarity and maybe a little confidence.
+There are also libraries that make these integrations easier to get going.

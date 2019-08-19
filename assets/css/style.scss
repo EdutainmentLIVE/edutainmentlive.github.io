@@ -49,6 +49,7 @@ h1 {
 .wrapper {
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-bottom: 2rem;
 }
 
 .default-content {
@@ -64,15 +65,10 @@ h1 {
       }
     }
   }
-  footer {
-    position: absolute;
-    bottom: 0;
-  }
 }
 
 .default-content, .page-content {
   padding-top: 1rem;
-  padding-bottom: 4rem;
   .post {
     img {
       max-width: 100%;

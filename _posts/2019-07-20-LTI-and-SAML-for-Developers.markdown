@@ -20,7 +20,7 @@ Tools like Canvas, Moodle, and Blackboard are examples of LMS.
 So for those of you who are junkies for knowing how every little thing about how stuff works, this is for you.
 Although I am not an expert on LTI, I will give my best effort for you.
 
->> PICTURE HERE
+![LTI Diagram][]
 
 Okay, so we have two entities that will be communicating with each other.
 One is the LTI Consumer and the LTI Tool Provider.
@@ -57,9 +57,11 @@ Honestly thinking about how it works isn't really too difficult, so I am going j
 
 The core to SAML is having an authoritative source that service providers can trust.
 When setting up SAML, a set of metadata is shared between the two providers to set up a secure connection and make sure that all needed values for the SP are sent.
-See the flow diagram below for the end user's flow.
+See the flow diagram below for the end user's flow for both SP initiated and IDP initiated.
 
->> PICTURE HERE
+![SAML SP Diagram][]
+
+![SAML IDP Diagram][]
 
 As you can see the user begins by accessing the service provider and informing them that they belong to a certain identity provider.
 Once the service provider knows who the user is and where to send them to be authorized, they are redirect to the IDP login screen.
@@ -88,3 +90,7 @@ The jargon around these single sign on strategies can confuse all kinds of peopl
 With that being said, the overall desire for single sign on is growing more and more because people prefer to have one username and password to log into work/academic tools.
 So my home is that after checking this out, you gained some clarity and maybe a little confidence.
 There are also libraries that make these integrations easier to get going.
+
+[LTI Diagram]: /assets/LTI_Diagram.png
+[SAML SP Diagram]: /assets/SAML_SP_Diagram.png
+[SAML IDP Diagram]: /assets/SAML_IDP_Diagram.png

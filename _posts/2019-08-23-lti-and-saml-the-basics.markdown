@@ -16,8 +16,9 @@ Tools like Canvas, Moodle, and Blackboard are examples of LMS.
 
 ### How it works
 
-So for those of you who are junkies for knowing how every little thing about how stuff works, this is for you.
-Although I am not an expert on LTI, I will give my best effort for you.
+LTI is an SSO strategy that is always initiated from the users LMS. 
+It is a fairly streamlined process and I'll do my best to keep it clear. 
+Let's check out this diagram to visualize the flow.
 
 ![LTI Diagram][]
 

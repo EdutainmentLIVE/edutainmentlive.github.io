@@ -3,10 +3,9 @@
 by Cameron Gera (@gera-cameron)
 
 LTI and SAML single sign-on strategies are incredibly useful, but they are some of the hardest things to grok so I am going to put it in terms that normal developers and system administrators understand.
-These two standards have full-fledged specs out there on the internet and if you work well with those standardized papers I would you encourage you to check those out.
+These two standards have full-fledged specs out there on the internet and if you work well with those standardized papers I would encourage you to check those out.
 Sadly, every time I read those I left more confused and lost, so I am going to take a different route.
-What was most useful for me were diagrams so as I get into the details about each I will provide diagrams to explain what I am saying.
-So if you are looking for a simplified version of what these two standards are, then stick around.
+What was most useful for me were diagrams. As I get into the details about each I will provide diagrams to explain what I am saying. So if you are looking for a simplified version of what these two standards are, then stick around.
 
 ## LTI Standard
 
@@ -40,8 +39,8 @@ The terms to know in regards to authentication are the following:
 These variables are pretty simple to understand and they should be scary.
 A tough aspect is implementing the logic for authentication on the Tool Provider side.
 But fear not!
-There are libraries out there that will help like [PassportJS](http://www.passportjs.org/packages/passport-lti) and others to help.
-These libraries take care of some of the magic associated with LTI, but the give you a friendly interface to work with.
+There are libraries out there that will help like [PassportJS](http://www.passportjs.org/packages/passport-lti)
+These libraries take care of some of the magic associated with LTI, but they give you a friendly interface to work with.
 We have been using PassportJS at work for quite a few years and we rarely have issues with our original implementation.
 I would recommend!
 
@@ -71,14 +70,14 @@ Now that we have proven the user is from a trusted source, the SP can give acces
 
 Some terms to know are the following:
 
-- **Entry Point** - This is the endpoint on the Identity Provider side that the Service Provider redirects to for authentication.
-- **Callback URL** - This is an endpoint on the Service Provider side that listens for the SAML Payload from the Identity Provider.
-- **Issuer** - This is the Service Provider's registered domain.
+- **Entry Point** - This is the endpoint on the IDP side that the SP redirects to for authentication.
+- **Callback URL** - This is an endpoint on the SP side that listens for the SAML Payload from the IDP.
+- **Issuer** - This is the SP's registered domain.
 - **Certificate** - This is what signs the payloads to verify security.
-- **Relay State** - This is a field that the Service Provider can set when redirecting to the entry point that will be sent back in the payload.
+- **Relay State** - This is a field that the SP can set when redirecting to the entry point that will be sent back in the payload.
 
 
-Sounds pretty straight forward right and it is.
+Sounds pretty straight forward right? and it is.
 SAML is one of the most common integrations that I am familiar with.
 The ability to use a single login to access many tools is becoming a must-have in the corporate world.
 I would encourage you to check out more documentation if you have more curiosity!

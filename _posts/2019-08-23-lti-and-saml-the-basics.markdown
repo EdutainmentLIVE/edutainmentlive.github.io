@@ -37,8 +37,9 @@ The terms to know in regards to authentication are the following:
 - **Privacy** - This is the level of privacy for the information shared with the Tool Provider.
 - **Custom Fields** - These are the custom fields that will allow the Tool Provider to tailor the experience to a specific Consumer.
 
-These variables are pretty simple to understand and they should be scary.
-A tough aspect is implementing the logic for authentication on the Tool Provider side.
+These variables are pretty simple to understand and they are all you need to set up when working with LTI.
+If you get these, you'll be able to talk the lingo and have a good jist of whats going on.
+The tough aspect is implementing the logic for authentication on the Tool Provider side.
 But fear not!
 There are libraries out there that will help like [PassportJS](http://www.passportjs.org/packages/passport-lti)
 These libraries take care of some of the magic associated with LTI, but they give you a friendly interface to work with.

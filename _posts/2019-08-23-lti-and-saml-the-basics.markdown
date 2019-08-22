@@ -16,14 +16,14 @@ Tools like Canvas, Moodle, and Blackboard are examples of LMS.
 
 ### How it works
 
-LTI is an SSO strategy that is always initiated from the users LMS. 
+LTI is an SSO strategy that is always initiated from the user's LMS. 
 It is a fairly streamlined process and I'll do my best to keep it clear. 
 Let's check out this diagram to visualize the flow.
 
 ![LTI Diagram][]
 
 Okay, so we have two entities that will be communicating with each other.
-One is the LTI Consumer and the LTI Tool Provider.
+One is the LTI Consumer and the other is the LTI Tool Provider.
 The LTI Consumer is the LMS.
 The LTI Tool Provider is the external service that the LMS is trying to access.
 The authentication works through a key and secret system with some other configurable pieces on the LMS side.
@@ -41,9 +41,9 @@ These variables are pretty simple to understand and they are all you need to set
 If you get these, you'll be able to talk the lingo and have a good jist of whats going on.
 The tough aspect is implementing the logic for authentication on the Tool Provider side.
 But fear not!
-There are libraries out there that will help like [PassportJS](http://www.passportjs.org/packages/passport-lti)
+There are libraries out there that will help like [PassportJS](http://www.passportjs.org/packages/passport-lti).
 These libraries take care of some of the magic associated with LTI, but they give you a friendly interface to work with.
-We have been using PassportJS at work for quite a few years and we rarely have issues with our original implementation.
+We have been using PassportJS at ITProTV for quite a few years and we rarely have issues with our original implementation.
 I would recommend!
 
 ## SAML Standard
@@ -66,7 +66,7 @@ See the flow diagram below for the end user's flow for both SP initiated and IDP
 
 As you can see the user begins by accessing the service provider and informing them that they belong to a certain identity provider.
 Once the service provider knows who the user is and where to send them to be authorized, they are redirected to the IDP login screen.
-After the IDP says they are good, they redirect back to the TP with a set of user identifiable information.
+After the IDP says they are good, they redirect back to the SP with a set of user identifiable information.
 When the SP sees this, it verifies that the payload was signed with the same certificate that the SP has on file.
 Now that we have proven the user is from a trusted source, the SP can give access to the user.
 
@@ -79,10 +79,10 @@ Some terms to know are the following:
 - **Relay State** - This is a field that the SP can set when redirecting to the entry point that will be sent back in the payload.
 
 
-Sounds pretty straight forward right? and it is.
+Sounds pretty straightforward right? and it is.
 SAML is one of the most common integrations that I am familiar with.
 The ability to use a single login to access many tools is becoming a must-have in the corporate world.
-I would encourage you to check out more documentation if you have more curiosity!
+I would encourage you to check out more documentation if you are curious!
 
 ## To Conclude
 

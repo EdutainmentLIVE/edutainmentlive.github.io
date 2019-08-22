@@ -30,8 +30,8 @@ The authentication works through a key and secret system with some other configu
 
 The terms to know in regards to authentication are the following:
 
-- **Consumer Key** - This is a shared key between the Consumer and the Tool Provider.
-- **Shared Secret** - This is the privately shared secret between the Consumer and the Tool Provider.
+- **Consumer Key** - This is a privately shared key between the Consumer and the Tool Provider and must match on both ends.
+- **Shared Secret** - This is the privately shared secret between the Consumer and the Tool Provider and must match on both ends.
 - **Launch URL** - This is the URL that the user would go to when launching the Tool Provider.
 - **Domain** - This is derived from the Launch URL and seems to be optional in my experience.
 - **Privacy** - This is the level of privacy for the information shared with the Tool Provider.
@@ -79,7 +79,7 @@ Some terms to know are the following:
 - **Relay State** - This is a field that the SP can set when redirecting to the entry point that will be sent back in the payload.
 
 
-Sounds pretty straightforward right? and it is.
+Sounds pretty straightforward right? And it is!
 SAML is one of the most common integrations that I am familiar with.
 The ability to use a single login to access many tools is becoming a must-have in the corporate world.
 I would encourage you to check out more documentation if you are curious!
